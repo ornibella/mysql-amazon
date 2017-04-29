@@ -9,7 +9,7 @@ connection.connect(function(err) {
 });
 
 
-function main() {
+function start() {
 inquirer.prompt([
   {
   	type: 'list',
@@ -84,7 +84,7 @@ switch (answers.activity) {
 			} 
 
 
-		main();
+		start();
 
 		}); 
 
@@ -106,4 +106,4 @@ switch (answers.activity) {
 
 } 
 
-main();
+start();
